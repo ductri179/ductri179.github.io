@@ -4,52 +4,58 @@
 
 		<title>This is my very first website!</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
 	</head>
 	
 	<body>
 
-		<div class="header">
+		<header>
 
 			<div id="logo">
 
-				<a href="http://oscartran.club"><img id="img-logo" src="images/logo.png"/></a>
+				<a href="http://oscartran.club"><img src="images/logo.png"/></a>
 
 			</div>
 
-			<div>
+			<div id="login">
 
 				<a href="/login.html">Login here</a>
 
 			</div>
 
-		</div>
+		</header>
+
 
 		<h1>Need something? Someone might want to barter.</h1>
 
 		<form>
 			
-			<div>
+			<div class="row" id="search-form"> 
 
-				<input type="text" name="ineed" value="" placeholder="I need this..">
+				<div id="large-fld-1">
 
-			</div>
+					<input type="text" class="large-fld" name="ineed" value="" placeholder="I need this..">
 
-			<div>
+				</div>
 
-				<input type="text" name="ioffer" value="" placeholder="I can offer this..">
+				<div id="large-fld-2">
 
-			</div>
+					<input type="text" class="large-fld" name="ioffer" value="" placeholder="I can offer this..">
 
-			<div>
+				</div>
 
-				<input type="submit" name="search" value="Find Matches">
+				<div>
+
+					<input class="large-btn" type="submit" name="search" value="Find Matches">
+
+				</div>
 
 			</div>
 
 		</form>
 
-		<p>Separate your wants and offers with a comma: Baby sitter, washer fixed, cheap car..</p>
+		<p class="page-info">Separate your wants and offers with a comma:<span> Baby sitter, washer fixed, cheap car</span></p>
 
 	</body>
 
