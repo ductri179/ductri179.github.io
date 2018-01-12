@@ -1,0 +1,31 @@
+body {
+	color: #000305;
+	background-color: #E8E7E9;
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
+}
+
+button {
+	background-color: #cf5c3f;
+	font-weight: bold;
+	border: none;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.mainFooter {
+	width: 100%;
+	margin-top: 5%;
+	float: left;
+	text-align: center;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px) {
+
+	.mainFooter {
+		width: 100%;
+		float: left;
+		margin-top: 0;
+	}	
+}

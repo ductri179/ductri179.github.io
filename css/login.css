@@ -1,0 +1,97 @@
+button:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+a:link {
+	color: #cf5c3f;
+}
+
+.loginLogo {
+	width: 300px;
+	margin: 150px auto auto auto;
+	display: block;
+}
+
+.loginContent {
+	width: 400px;
+	height: 500px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+.loginHeader {
+	text-align: center;
+	color: #cf5c3f;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.loginForm label {
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.textInput {
+	display: block;
+	width: 70%;
+	margin: 0 auto 10px auto;
+	padding: 2% 5%;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #C3C3C3;
+}
+
+.loginButton {
+	padding: 3% 10%;
+	margin: 40px auto;
+	display: block;
+	width: 80%;
+}
+
+#rememberMe {
+	margin: 0 auto;
+	width: 35%;
+}
+
+.footer {
+	text-align: center;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px) {
+	.loginLogo {
+		width: 90%;
+		margin: 0 auto;
+		display: block;
+	}
+
+	.loginContent {
+		width: 100%;
+		height: 400px;
+	}
+
+	.loginHeader {
+		text-align: center;
+		color: #cf5c3f;
+		padding: 0px;
+		margin-top: 10px;
+	}
+
+	.loginButton {
+		padding: 3% 10%;
+		margin: 20px auto;
+	}
+
+	#rememberMe {
+		margin: 0 auto;
+		width: 35%;
+	}
+
+	.footer {
+		text-align: center;
+	}
+
+}
