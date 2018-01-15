@@ -1,0 +1,211 @@
+a {
+	text-decoration: none;
+}
+
+.body {
+	margin: 0 auto;
+	width: 60%;
+}
+
+.mainHeader img {
+	width: 20%;
+	height: auto;
+	margin: 2% 0;
+	display: block;
+}
+
+.mainHeader nav {
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.mainHeader nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	display: inline;
+	float: left;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #fff;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.mainHeader nav a:hover, .active {
+	background-color: #cf5c3f;
+}
+
+.mainContent {
+	line-height: 25px;
+}
+
+.content {
+	width: 70%;
+	float: left;
+	
+}
+
+.content article header h2 a:link, article header h2 a:visited {
+	color: #cf5c3f;
+}
+
+.articleTop {
+	margin: 20px 0;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 10px 5% 20px 5%;
+}
+
+.articleBottom {
+	margin: 20px 0;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 10px 5% 20px 5%;
+}
+
+.articleTitle {
+	margin-bottom: 10px;
+	font-size: 40px;
+	color: #cf5c3f;
+}
+
+.post-info {
+	color: #7F7F7F;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.sidebar article {
+	background-color: #fff;
+	border-radius: 5px;
+	margin-left: 4%;
+	margin-bottom: 20px;
+	width: 20%;
+	float: left;
+	padding: 0 3% 1% 3%;
+}
+
+.top-sidebar {
+	margin-top: 20px;
+}
+
+#loginButton {
+	background-color: transparent;
+	float: right;
+	font-weight: normal;
+}
+
+.small-icon {
+	width: 20px;
+	margin: 10px 5px 0 30px;
+}
+
+#first-small-icon {
+	margin-left: 0;
+}
+
+.tag {
+	background-color: #E8E7E9;
+	margin: 0 10px 0 10px;
+	padding: 5px;
+}
+
+.comment-section {
+	float: left;
+	width: 60%;
+}
+
+.input-comment {
+	width: 100%;
+	line-height: 18px;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px) {
+	.body {
+		width: 90%;
+		font-size: 95%;
+	}
+
+	.mainHeader img {
+		width: 90%;
+		margin: 2% auto;
+	}
+
+	.mainHeader nav {
+		height: 160px;
+	}
+
+	.mainHeader nav ul {
+		padding-left: 0;
+	}
+
+	.mainHeader nav ul li {
+		display: inline;
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+
+	.mainHeader nav a:link, .mainHeader nav a:visited {
+		display: block;
+	}
+
+	.content {
+		width: 100%;
+	}
+
+	.sidebar article {
+		width: 100%;
+	}
+
+
+	.articleTitle {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.post-info {
+		font-size: 70%;
+	}
+
+	.articleContent p {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.sidebar article {
+		margin-left: 0;
+		width: 94%;
+		margin-bottom: 10px;
+		float: left;
+	}
+
+	.sidebar h2, p {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+
+	.mainFooter {
+		width: 100%;
+		float: left;
+		margin-top: 0;
+	}
+
+
+	#loginButton {
+		background-color: transparent;
+		float: right;
+		font-weight: normal;
+		color: #cf5c3f;
+	}
+
+}
