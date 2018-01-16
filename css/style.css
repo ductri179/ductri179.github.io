@@ -1,9 +1,14 @@
 body {
 	color: #000305;
 	background-color: #E8E7E9;
-	font-family: Arial, 'Lucida Sans Unicode';
+	font-family: 'Montserrat', sans-serif;
 	line-height: 1.5;
 	text-align: left;
+}
+
+button:hover {
+	opacity: 0.8;
+	cursor: pointer;
 }
 
 button {
@@ -12,10 +17,15 @@ button {
 	border: none;
 	color: #fff;
 	border-radius: 5px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 a, a:visited {
 	color: #cf5c3f;
+}
+
+h2 {
+	margin: 0;
 }
 
 .mainFooter {
