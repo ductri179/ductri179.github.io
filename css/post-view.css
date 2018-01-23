@@ -137,6 +137,7 @@ a {
 	border-color: #C3C3C3;
 	height: 50px;
 	font-size: 15px;
+	resize: none;
 }
 
 .comment-option {
@@ -220,6 +221,11 @@ a {
 
 	.post-info {
 		font-size: 70%;
+	}
+
+	.small-icon {
+		width: 20px;
+		margin: 0 5px 0 10px;
 	}
 
 	.articleContent p {
